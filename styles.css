@@ -1,0 +1,36 @@
+body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background-color: #F0EEEC;}
+
+#main-banner {
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#main-banner img{
+    width: 100%;
+    height: auto;
+}
+
+.centered-button {
+margin: 0;
+position: absolute;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+.recipe-button {
+    color: white;
+    font-size: large;
+    background-color: #CC470A;
+    border-radius: 20px;
+    border-style: hidden;
+    width: auto;
+    height: 40px;
+    position: relative;
+}
+
+.recipe-button a {
+    color: white;
+    text-decoration: none;
+}
