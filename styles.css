@@ -1,6 +1,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* The above container is the "universal" key. */
@@ -11,29 +13,48 @@ body {
 background-color: #F0EEEC;
 }
 
-#main-banner {
+.header-container {
     max-width: 100%;
     overflow: hidden;
     text-align: center;
 }
 
-#main-banner img{
-    width: 80%;
+.header-container img{
+    width: 60%;
     height: auto;
 }
 
-#button {
-    margin: 8px;
+.menu-container {
+    color: #CC470A;
+    background-color: #F0EEEC;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.button-container {
     position: absolute;
     display: inline-flex;
     text-align: center;    
     padding: 16px;
+    margin: auto;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
-.recipe-access {
+.button {
     color: white;
     font-size-adjust: 0.74;
     background-color: #CC470A;
@@ -41,12 +62,12 @@ background-color: #F0EEEC;
     border-style: solid;
     border-color: #CC470A;
     margin: 5px;
-    padding: 10px;
+    padding: 6px;
     height: auto;
     width: 235px;
 }
 
-.recipe-access a {
+.button a {
     color: white;
     text-decoration: none;
 }
@@ -102,4 +123,30 @@ background-color: #F0EEEC;
 
 .text ol {
     line-break: auto;
+}
+
+.footer-container {
+    color: #CC470A;
+    background-color: #F0EEEC;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    width: 900px;
+    height: 100px;
+    display: flex;
+    margin-top: 55px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe {
+    font-size: larger;
+}
+
+.social {
+    margin-top: 20px;
 }
